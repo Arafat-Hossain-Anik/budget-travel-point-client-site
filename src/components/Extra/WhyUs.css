@@ -5,7 +5,7 @@
 .part-card:hover{
      color: black;
      background: rgb(247, 245, 245);
-    box-shadow:0 0 10px pink,0 0 10px pink, 0 0 80px pink;
+    box-shadow:0 0 10px rgb(0, 0, 0),0 0 10px rgb(0, 0, 0), 0 0 80px rgb(119, 119, 119);
     transition: 1s;
     cursor: pointer;
 }
@@ -19,12 +19,4 @@
     font-family: 'Ubuntu', sans-serif;
     top: 10%;
     line-height: 60px;
-}
-.why{
-    text-align: center;
-}
-.why1{
-    font-weight: 900;
-    font-size: 60px;
-    color: chocolate;
 }

@@ -1,7 +1,8 @@
 import React from 'react';
 import AboutUs from '../../Pages/AboutUs/AboutUs';
 import Banner from '../Banner/Banner';
-import Part1 from '../Extra/Part1';
+import Blog from '../Extra/Blog';
+import WhyUs from '../Extra/WhyUs'
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Services from '../Services/Services';
@@ -13,8 +14,9 @@ const Home = () => {
             <Header></Header>
             <Banner></Banner>
             <Services></Services>
-            <Part1></Part1>
+            <WhyUs></WhyUs>
             <AboutUs></AboutUs>
+            <Blog></Blog>
             <Footer></Footer>
         </div>
     );
