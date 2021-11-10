@@ -6,23 +6,22 @@ import 'animate.css';
 const Banner = () => {
   return (
     <>
-    <div className="banner">
-      <div className="slider">
-        <img id="slideImg" src="https://thumbnails.production.thenounproject.com/sv0kBi_JJD67HpMTx8oJ8jcD_i0=/fit-in/1000x1000/photos.production.thenounproject.com/photos/EF8EA3E5-CED1-40F8-94E0-5904846AD5F9.jpg" alt="" />
-      </div>
-      <div className="overlay">
-        <div className="content">
-          <p className='animate__backInDown' style={{color:"white"}}>TRAVEL WITH US</p>
-          <h1><span style={{fontWeight:'bold',color:'rgb(153, 2, 77)'}}>E</span>NJOY <br />YOUR VACATION</h1>
-          <h3>I wish you all the best for your vacation. Have fun and enjoy it. 
-          <img style={{width:'70px'}} src="https://cdn-icons-png.flaticon.com/512/5976/5976095.png" alt="" /></h3>
-          <div>
-            <button className='header-btn' type='button'><a className='youtube' style={{color:'white',}} href="https://youtu.be/i9E_Blai8vk">WATCH MORE</a> </button>
-            <button className='btn2 header-btn' type='button'><a className='youtube' style={{color:'white',}} href="https://www.youtube.com/c/JhankarMahbub"> SUBSCRIBE</a></button>
+      <div className="banner">
+        <div className="slider">
+          <img id="slideImg" src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80" alt="" />
+        </div>
+        <div className="overlay">
+          <div className="content">
+            <p className='animate__backInDown' style={{ color: "white" }}>ENJOY YOUR VACATION WITH </p>
+            <h1>BUDGET <br /> TRAVEL POINT</h1>
+            <h3 style={{ lineHeight: '1.6' }}> Enjoy your travel with us within lowest cost  and stay happy</h3>
+            <div>
+              <button className='header-btn' type='button'><a className='youtube' style={{ color: 'white', }} href="https://www.youtube.com/watch?v=LrkvTVt-wHk">WATCH MORE</a> </button>
+              <button className='btn2 header-btn' type='button'><a className='youtube' style={{ color: 'white', }} href="https://www.youtube.com/c/JhankarMahbub"> SUBSCRIBE</a></button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </>
   );
 };

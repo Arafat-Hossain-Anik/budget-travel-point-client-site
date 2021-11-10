@@ -41,13 +41,15 @@ const UseCart = () => {
     }
     function remove(id) {
         // const selectAfterRemove = selectedBooking.filter((select)=> !(select._id === id));
-        const url = `https://fast-headland-27081.herokuapp.com/booking/add/${id}`;
+        const url = `https://quiet-lake-52028.herokuapp.com/booking/add/${id}`;
+        console.log(url);
         fetch(url, {
             method: 'DELETE'
         })
             .then(res => res.json())
             .then(data => {
                 if (data.deletedCount === 1) {
+                    alert('remove successfully')
                     const selectAfterRemove = selectedBooking.filter((select) => !(select._id === id));
                     setSelectedBooking(selectAfterRemove)
                 } else {

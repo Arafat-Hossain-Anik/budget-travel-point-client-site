@@ -20,7 +20,7 @@ const Service = (props) => {
                         <Container>
                             <Row>
                                 <Col><p><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star-half-alt"></i></p></Col>
-                                <Row> <Col><p className=" fw-bold"><i class="fas fa-clock"></i> {service.time}</p></Col>
+                                <Row> <Col><p className=" fw-bold"><i className="fas fa-clock"></i> {service.time}</p></Col>
                                     <Col className='star-icon'><p className=" fw-bold"><i className="fas fa-dollar-sign"></i> {service.price}.00</p></Col>
                                 </Row>
 
@@ -29,7 +29,7 @@ const Service = (props) => {
                             <Row className='booking'>
                                 <Col><button onClick={() => addToCart(service)}><i className="far fa-flag"></i> Booking Now</button></Col>
                                 <Col className='details-btn'> <Link to={`/more/${service._id}`}>
-                                    <button>View Details <i class="fas fa-info-circle"></i></button>
+                                    <button>View Details <i className="fas fa-info-circle"></i></button>
                                 </Link></Col>
                             </Row>
                         </Container>

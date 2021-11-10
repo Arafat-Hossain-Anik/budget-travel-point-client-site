@@ -12,7 +12,7 @@
   
   /* Style the submit button with a specific background color etc */
   .opinion input[type=submit] {
-    background-color: hotpink;
+    background-color: rgb(7, 6, 27);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -22,12 +22,13 @@
   
   /* When moving the mouse over the submit button, add a darker green color */
   .opinion input[type=submit]:hover {
-    background-color: rgb(199, 4, 101);
+    background-color: rgb(255, 255, 255);
+    color: blue;
   }
   
   /* Add a background color and some padding around the form */
   .contai {
     border-radius: 5px;
-    background-color: rgb(250, 217, 222);
+    background-color: rgb(131, 131, 131);
     padding: 20px;
   }

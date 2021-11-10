@@ -33,7 +33,7 @@ const Header = () => {
               <>
                 <Nav.Link
                   as={HashLink}
-                  to="/dashboard"
+                  to="/myBooking"
                   className="text-white fw-bold"
                 >
                   Booking List

@@ -14,11 +14,9 @@ import SignUp from './Pages/SignUp/SignUp';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import MyBooking from './Pages/MyOrder/MyBooking';
-import Dashboard from './Pages/Dashboard/Dashboard';
 import Thanks from './Pages/Thanks/Thanks';
 import Form from './Pages/Form/Form';
 import AddedService from './components/AddedService/AddedService';
-
 function App() {
   return (
     <div className="">
@@ -46,9 +44,6 @@ function App() {
             <Route path='/signup'>
               <SignUp></SignUp>
             </Route>
-            <PrivateRoute path='/dashboard'>
-              <Dashboard></Dashboard>
-            </PrivateRoute>
             <Route path='/thanks'>
               <Thanks> </Thanks>
             </Route>

@@ -37,7 +37,7 @@ const More = () => {
               </Col>
               <Col className='booking'>
                 <Link to='/form'>
-                  <button onClick={() => addToCart(service)}> Booking Confirm <i class="far fa-check-circle"></i></button>
+                  <button onClick={() => addToCart(service)}> Booking Confirm <i className="far fa-check-circle"></i></button>
                 </Link>
               </Col><hr />
               <p className="text-center fw-bold">{service.time}</p>

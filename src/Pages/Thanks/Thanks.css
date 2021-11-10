@@ -6,11 +6,14 @@
     border-radius: 25px;
     font-weight: bold;
     border: 0px solid rgb(1, 33, 59);
-    background: hotpink ;
-    background: -moz-linear-gradient(left, hotpink 0%, rgb(248, 204, 212) 100%);
-    background: -webkit-linear-gradient(left, hotpink 0%, rgb(248, 204, 212) 100%);
-    background: linear-gradient(to right, hotpink 0%, rgb(248, 204, 212) 100%);
+    background: rgb(13, 10, 48) ;
     color: #fff;
     cursor: pointer;
     transition: background 0.5s;
+}
+.thanks button:hover{
+    color: rgb(13, 10, 48);
+    background-color: white;
+    border: 1px solid gray;
+
 }
