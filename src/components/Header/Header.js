@@ -54,7 +54,7 @@ const Header = () => {
                   <div className="text-center">
                     <h6>{contexts.user.displayName}</h6>
                     <p className="m-0 mb-2">{contexts.user.email}</p>
-                    <button onClick={contexts.logOut} className="btn btn-primary fw-bold">
+                    <button onClick={contexts.logOut} className="btn btn-danger fw-bold">
                       Sign Out
                     </button>
                   </div>

@@ -4,10 +4,7 @@
     margin: 110px 10px 10px;
     border-radius: 25px;
     font-weight: bold;
-    background: hotpink ;
-    background: -moz-linear-gradient(left, hotpink 0%, rgb(248, 204, 212) 100%);
-    background: -webkit-linear-gradient(left, hotpink 0%, rgb(248, 204, 212) 100%);
-    background: linear-gradient(to right, hotpink 0%, rgb(248, 204, 212) 100%);
+    background: rgb(7, 5, 36) ;
     color: #fff;
 }
 .text-mute1{
@@ -16,10 +13,7 @@
     margin: 110px 10px 10px;
     border-radius: 25px;
     font-weight: bold;
-    background: rgb(248, 204, 212) ;
-    background: -moz-linear-gradient(left, rgb(248, 204, 212) 0%, hotpink 100%);
-    background: -webkit-linear-gradient(left, rgb(248, 204, 212) 0%, hotpink 100%);
-    background: linear-gradient(to right, rgb(248, 204, 212) 0%, hotpink 100%);
+    background: rgb(10, 6, 44);
     color: #fff ;
 }
 .text-mute2{
@@ -28,10 +22,7 @@
     margin: 110px 10px 10px;
     border-radius: 25px;
     font-weight: bold;
-    background: hotpink ;
-    background: -moz-linear-gradient(left, hotpink 0%, rgb(248, 204, 212) 100%);
-    background: -webkit-linear-gradient(left, hotpink 0%, rgb(248, 204, 212) 100%);
-    background: linear-gradient(to right, hotpink 0%, rgb(248, 204, 212) 100%);
+    background: rgb(10, 6, 44);
     color: #fff;
 }
 .text-mute3{
@@ -40,10 +31,7 @@
     margin: 110px 10px 10px;
     border-radius: 25px;
     font-weight: bold;
-    background: rgb(248, 204, 212) ;
-    background: -moz-linear-gradient(left, rgb(248, 204, 212) 0%, hotpink 100%);
-    background: -webkit-linear-gradient(left, rgb(248, 204, 212) 0%, hotpink 100%);
-    background: linear-gradient(to right, rgb(248, 204, 212) 0%, hotpink 100%);
+    background: rgb(7, 5, 36);
     color: #fff;
 }
 @media only screen and (max-width:600px){
