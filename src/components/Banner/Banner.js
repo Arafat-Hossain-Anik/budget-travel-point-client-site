@@ -17,7 +17,7 @@ const Banner = () => {
             <h3 style={{ lineHeight: '1.6' }}> Enjoy your travel with us within lowest cost  and stay happy</h3>
             <div>
               <button className='header-btn' type='button'><a className='youtube' style={{ color: 'white', }} href="https://www.youtube.com/watch?v=LrkvTVt-wHk">WATCH MORE</a> </button>
-              <button className='btn2 header-btn' type='button'><a className='youtube' style={{ color: 'white', }} href="https://www.youtube.com/c/JhankarMahbub"> SUBSCRIBE</a></button>
+              <button className='btn2 header-btn' type='button'><a className='youtube' style={{ color: 'white', }} href="https://www.youtube.com/channel/UCqlthGjbLIci7i3x2gk8P4Q"> SUBSCRIBE</a></button>
             </div>
           </div>
         </div>
