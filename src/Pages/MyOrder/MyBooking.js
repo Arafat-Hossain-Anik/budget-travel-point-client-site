@@ -18,7 +18,7 @@ const MyBooking = () => {
             <h2>Total {selectedBooking.length} Place Added</h2>
             <h4>Total Cost : {totalPrice}</h4>
             <Link to='/form'>
-              <button className='btn btn-success'>Booking Confirm</button>
+              <button className='btn btn-success'>Confirm Your Booking</button>
             </Link>
           </div> :
           <div className="text-center"><h1>No Cost</h1></div>
@@ -40,7 +40,7 @@ const MyBooking = () => {
                     <Row>
                       <Col>
                         <h1><i className="fas fw-small fa-dollar-sign"></i> {booking.price}</h1>
-                        <p><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star-half-alt"></i></p>
+                        <h6 className='fw-bold'>Status: <span style={{ textTransform: 'uppercase', color: 'red' }}> {booking.status} </span></h6>
                       </Col>
                       <Col>
                         <Row>
@@ -64,9 +64,8 @@ const MyBooking = () => {
         }
       </div>
       <Nav.Link>
-        <Link className='booking pt-5' style={{ color: 'white', fontWeight: 'bold', textDecoration: 'none', }} to='/addedservice'><button className='container '>Add New Place</button>{selectedBooking.length}</Link>
+        <Link className='booking pt-5 w-25 mx-auto' style={{ color: 'white', fontWeight: 'bold', textDecoration: 'none', }} to='/addedservice'><button className='container '>Add New Place</button></Link>
       </Nav.Link>
-
       <Footer></Footer>
     </div>
   );

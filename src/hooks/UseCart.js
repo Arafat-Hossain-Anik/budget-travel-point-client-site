@@ -40,23 +40,25 @@ const UseCart = () => {
         }
     }
     function remove(id) {
-        // const selectAfterRemove = selectedBooking.filter((select)=> !(select._id === id));
-        const url = `https://quiet-lake-52028.herokuapp.com/booking/add/${id}`;
-        console.log(url);
-        fetch(url, {
-            method: 'DELETE'
-        })
-            .then(res => res.json())
-            .then(data => {
-                if (data.deletedCount === 1) {
-                    alert('remove successfully')
-                    const selectAfterRemove = selectedBooking.filter((select) => !(select._id === id));
-                    setSelectedBooking(selectAfterRemove)
-                } else {
-                    alert('Something Wrong!')
-                }
+        const isConfirm = window.confirm('Are You Sure? Wanna delete?');
+        console.log(isConfirm);
+        if (isConfirm) {
+            const url = `https://quiet-lake-52028.herokuapp.com/booking/add/${id}`;
+            console.log(url);
+            fetch(url, {
+                method: 'DELETE'
             })
-        // setSelectedBooking(selectAfterRemove)
+                .then(res => res.json())
+                .then(data => {
+                    if (data.deletedCount === 1) {
+                        alert('remove successfully')
+                        const selectAfterRemove = selectedBooking.filter((select) => !(select._id === id));
+                        setSelectedBooking(selectAfterRemove)
+                    } else {
+                        alert('Something Wrong!')
+                    }
+                })
+        }
     }
     return { addToCart, selectedBooking, remove };
 };

@@ -5,8 +5,6 @@ import Header from '../../components/Header/Header';
 import './Form.css';
 
 const Form = () => {
-    // const {register, handleSubmit, formState:{errors}} = useForm();
-    // const {user}
     return (
         <div>
             <Header></Header>

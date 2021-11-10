@@ -21,16 +21,15 @@ const AddedService = () => {
     return (
         <>
             <Header></Header>
-            <div className='add-service'>
-                <h2 className='text-center p-5' style={{ color: 'hotpink' }}>Please Add Your Favourite Place</h2>
-
+            <div className='add-service pb-5' style={{ height: '50vh' }}>
+                <h2 className='text-center p-3 fw-bold text-dark'>Add New Place</h2>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <input {...register("name", { required: true, maxLength: 20 })} placeholder='write name' />
                     <textarea {...register("description")} placeholder='description' />
                     <input type="number" {...register("price")} placeholder='added price' />
                     <input type="number" {...register("time")} placeholder='added time' />
                     <input {...register("img")} placeholder='image url' />
-                    <input className='sub' style={{ background: 'hotpink' }} type="submit" />
+                    <input className='sub' style={{ background: '#161E54' }} type="submit" />
                 </form>
             </div>
             <Footer></Footer>
