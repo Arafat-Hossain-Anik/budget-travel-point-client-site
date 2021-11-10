@@ -64,7 +64,7 @@ const MyBooking = () => {
         }
       </div>
       <Nav.Link>
-        <Link className='booking pt-5 w-25 mx-auto' style={{ color: 'white', fontWeight: 'bold', textDecoration: 'none', }} to='/addedservice'><button className='container '>Add New Place</button></Link>
+        <Link className='booking pt-5 w-25 mx-auto' style={{ color: 'white', fontWeight: 'bold', textDecoration: 'none', }} to='/tourplace'><button className='container '>Add More Places</button></Link>
       </Nav.Link>
       <Footer></Footer>
     </div>
