@@ -9,6 +9,8 @@
 * 24/7 Hours Live Support
 * Best Security
 * Expert Tour Guides
+* Installment Services
+* 100% Money Back Gurantee
 ## Want to know more?
 ## Visit Our live-site "https://budget-travel-point.web.app/"
 ### THANK YOU
