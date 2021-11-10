@@ -3,7 +3,6 @@ import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import './Header.css';
-import headerLogo from '../../images/logo/header-logo.png';
 import { HashLink } from 'react-router-hash-link';
 
 
@@ -13,7 +12,7 @@ const Header = () => {
     <>
       <Navbar className='header' variant="dark" sticky='top' collapseOnSelect expand="lg">
         <Container>
-          <Navbar.Brand href="#home"><img style={{ color: 'white' }} className=' logo' src={headerLogo} alt="" /></Navbar.Brand>
+          <Navbar.Brand href="/home"> <h2> Budget-Travel-Point </h2></Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className='justify-text-end fw-normal'>
             <Nav className="ms-auto ">
@@ -23,28 +22,6 @@ const Header = () => {
               <Nav.Link>
                 <Link style={{ color: 'white', fontWeight: 'bold', textDecoration: 'none' }} to='/tourplace'>Tour Place</Link>
               </Nav.Link>
-
-              {/* <Nav.Link>
-                    <Link style={{color:'white',fontWeight:'bold', textDecoration:'none'}} to='/mybooking'>My Order{selectedBooking.length}</Link> 
-                </Nav.Link> */}
-              <NavDropdown className='' style={{ color: 'white', fontWeight: 'bold' }} title=" More" id="basic-nav-dropdown">
-                <NavDropdown.Item href="">
-                  <Nav.Link>
-                    <Link style={{ color: 'black', fontWeight: 'bold', textDecoration: 'none' }} to='/aboutus'>About Us</Link>
-                  </Nav.Link>
-                </NavDropdown.Item>
-                <NavDropdown.Item href="">
-                  <Nav.Link>
-                    <Link style={{ color: 'black', fontWeight: 'bold', textDecoration: 'none' }} to='/contactus'>Contact Us</Link>
-                  </Nav.Link>
-                </NavDropdown.Item>
-                <NavDropdown.Item href="">
-                  <Nav.Link>
-                    <Link style={{ color: 'black', fontWeight: 'bold', textDecoration: 'none' }} to='/opinion'>Share Your Opinion</Link>
-                  </Nav.Link>
-                </NavDropdown.Item>
-
-              </NavDropdown>
             </Nav>
             {!contexts.user.displayName ? (
               <>
